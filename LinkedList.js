@@ -1,10 +1,9 @@
 import Node from "./Node.js";
 
 export default class LinkedList {
-    constructor(node) {
-        const head = node instanceof Node ? node : new Node();
-        this.head = head;
-        this.tail = head;
+    constructor(firstNodeValue = null) {
+        this.head = new Node(firstNodeValue);
+        this.tail = this.head;
     }
     append(value) {
         const node = new Node(value);
