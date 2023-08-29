@@ -1,0 +1,20 @@
+{
+  "name": "top-linked-lists",
+  "type":"module",
+  "version": "1.0.0",
+  "description": "top Linked Lists project",
+  "main": "LinkedList.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/porkenvolf/top-linked-lists.git"
+  },
+  "author": "Porkenvolf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/porkenvolf/top-linked-lists/issues"
+  },
+  "homepage": "https://github.com/porkenvolf/top-linked-lists#readme"
+}
